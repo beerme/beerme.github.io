@@ -7,13 +7,13 @@
     float: left;
     width: 17px;
     height: 16px;
-    background: url('/img/bullet.png') no-repeat;
+    background: url('../img/bullet.png') no-repeat;
     text-indent: -9999px;
     border: 0;
     margin-right: 3px;
 }
 .carousel-nav a.active {
-    background: url('/img/bullet-active.png') no-repeat;
+    background: url('../img/bullet-active.png') no-repeat;
 }
 
 
@@ -32,7 +32,7 @@ div.iphone > div.carousel, div.android > div.carousel, div.wphone > div.carousel
 /* iPhone styles  */
 
 div.iphone {
-    background: url('/img/iphone.png') no-repeat top left;
+    background: url('../img/iphone.png') no-repeat top left;
     height: 565px;
 }
 
