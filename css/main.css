@@ -1,5 +1,8 @@
 body {margin-top: 40px; background:url('../img/textured_paper.png') repeat;}
 hr {background-color:#eee;color:#eee;height:3px;}
 .iphone { position: relative; background: url('../img/iphone.png') no-repeat top left; width: 290px; height: 565px; }
-.iphone > .inner { position: absolute; left: 24px; top: 102px; }
-.iphone > .inner img { height: 365px; width: 245px; }
+.iphone > .carousel { position: absolute; left: 24px; top: 102px; }
+.iphone > .carousel img { height: 365px; width: 245px; }
+.carousel-nav { margin-top: 1.5em; margin-left: 130px; }
+.carousel-nav a { float: left; width: 17px; height: 16px; background: url('../img/bullet.png') no-repeat; text-indent: -9999px; border: 0; margin-right: 3px;}
+.carousel-nav a.active { background: url('../img/bullet-active.png') no-repeat; }
