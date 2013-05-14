@@ -1,4 +1,5 @@
-body {margin-top: 40px; background:url('../img/textured_paper.png') repeat;}
+body {margin-top: 40px; /*background:url('../img/textured_paper.png') repeat;*/}
+.ios {margin-top: 100px;}
 hr {background-color:#eee;color:#eee;height:3px;}
 .iphone { position: relative; background: url('../img/iphone.png') no-repeat top left; width: 290px; height: 565px; }
 .iphone > .carousel { position: absolute; left: 24px; top: 102px; }
