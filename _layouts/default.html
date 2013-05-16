@@ -39,7 +39,11 @@
                 <h1>Beer Me</h1>
                 <h4>Quickly find the best place nearby to have a beer!</h4>
                 <h5>We do the thinking, you do the drinking.</h5>
-                <p class="ios"><a href="#"><img src="img/appstore.png" alt="Available on the iPhone App Store" /></a></p>
+                <p class="ios">
+                  <a href="#" id="ios-download">
+                    <img src="img/appstore.png" alt="Available on the iPhone App Store" /></a>
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -93,6 +97,10 @@
               var item = nav.find('a').get(index);
               nav.find('a.active').removeClass('active');
               $(item).addClass('active');
+            });
+            
+            $('#ios-download').on('click', function() {
+              ga('send', 'event', 'button', 'click', 'download');
             });
           });
         </script>
