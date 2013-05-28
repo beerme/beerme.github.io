@@ -49,8 +49,11 @@
                 <h5>We do the thinking, you do the drinking.</h5>
                 <p class="ios">
                   <a href="https://itunes.apple.com/us/app/beer-me-now/id648176483" id="ios-download">
-                    <img src="img/appstore.png" alt="Available on the iPhone App Store" /></a>
+                    <img src="img/appstore.png" alt="Available on the iPhone App Store" />
                   </a>
+                  <!--<a href="/downloads/beerme.apk" id="play-download">
+                    <img src="img/playstore.png" alt="Available on the Play Store" />
+                  </a>-->
                 </p>
               </div>
             </div>
@@ -112,6 +115,9 @@
             $('#ios-download').on('click', function() {
               ga('send', 'event', 'button', 'click', 'download');
             });
+            $('#play-download').on('click', function() {
+               ga('send', 'event', 'button', 'click', 'play-download');
+             });
           });
         </script>
     </body>

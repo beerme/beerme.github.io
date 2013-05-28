@@ -7,3 +7,4 @@ hr {background-color:#eee;color:#eee;height:3px;}
 .carousel-nav { margin-top: 1.5em; margin-left: 130px; }
 .carousel-nav a { float: left; width: 17px; height: 16px; background: url('../img/bullet.png') no-repeat; text-indent: -9999px; border: 0; margin-right: 3px;}
 .carousel-nav a.active { background: url('../img/bullet-active.png') no-repeat; }
+h1 {clear:both;}
