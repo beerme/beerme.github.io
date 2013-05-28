@@ -14,6 +14,14 @@
         <link href="css/social-buttons.css" rel="stylesheet">
     </head>
     <body>
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=525335930856319";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
         <div class="container">
           <div class="row">
@@ -58,6 +66,8 @@
                 </p>
                 <p class="text-right">Developed by <a href="http://sudothinker.com">Michael Murray</a>.</p>
                 <p class="text-right">Copyright 2013. All rights reserved.</p>
+                <div class="pull-right text-right fb-like" data-href="https://www.facebook.com/beermeapp"  data-layout="button_count" data-send="false" data-width="350" data-show-faces="false"></div>
+
             </div>
           </div>
         </div> <!-- /container -->
